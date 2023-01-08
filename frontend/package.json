@@ -1,0 +1,51 @@
+{
+  "name": "meetingsdk-sample-react",
+  "version": "2.9.5",
+  "author": "Zoom Video Communications, Inc.",
+  "contributors": [
+    {
+      "name": "Tommy Gaessler"
+    }
+  ],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@zoomus/websdk": "^2.9.5",
+    "axios": "^1.2.2",
+    "chokidar": "^3.5.3",
+    "luxon": "^3.2.1",
+    "react": "^17.0.1",
+    "react-dev-utils": "^11.0.4",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&set SSL_CRT_FILE=C:/Users/Administrator/cert.crt&&set SSL_KEY_FILE=C:/Users/Administrator/cert.key&&react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
